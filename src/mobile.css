@@ -9,6 +9,6 @@
 
 /* Le mot ARCHITECTURE débordait de l'écran et élargissait toute la page */
 @media (max-width:600px){
-  .network .big{font-size:clamp(18px,5.6vw,48px);white-space:nowrap;overflow-wrap:normal}
+  .network .big{font-size:clamp(18px,6.4vw,48px);white-space:nowrap;overflow-wrap:normal}
 }
 .nav-logo,.nav-links a{white-space:nowrap}
