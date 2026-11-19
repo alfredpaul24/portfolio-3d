@@ -76,6 +76,9 @@ function Board() {
   )
 }
 
+// recule la caméra sur écran étroit pour que tout le clavier reste visible
+const KZ = Math.max(1, 1.25 / (innerWidth / (innerHeight * 0.72)))
+
 export default function TechKeyboard() {
   const [ref, inView, seen] = useInView()
   return (
@@ -84,7 +87,7 @@ export default function TechKeyboard() {
       <p className="hint">(astuce : appuie sur une touche)</p>
       <div className="kb-scene">
         {seen && (
-          <Canvas key="kb" camera={{ position: [0, 8.5, 9], fov: 34 }} dpr={DPR} frameloop={inView ? 'always' : 'never'}>
+          <Canvas key="kb" camera={{ position: [0, 8.5 * KZ, 9 * KZ], fov: 34 }} dpr={DPR} frameloop={inView ? 'always' : 'never'}>
             <ambientLight intensity={0.9} />
             <directionalLight position={[4, 8, 5]} intensity={2.3} />
             <pointLight position={[-5, 3, -2]} intensity={25} color="#8b5cf6" />

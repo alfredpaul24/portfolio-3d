@@ -19,7 +19,7 @@ function texture(label, color) {
 function Balls() {
   const { viewport } = useThree()
   const refs = useRef([]), moved = useRef(false), last = useRef(0)
-  const items = useMemo(() => [...TECH, ...TECH.slice(0, 10)].map(([l, c], i) => ({ l, c, i, r: 0.8 + ((i * 37) % 10) / 22, x: (Math.random() - 0.5) * 8 })), [])
+  const items = useMemo(() => [...TECH, ...TECH.slice(0, 10)].map(([l, c], i) => ({ l, c, i, r: (0.8 + ((i * 37) % 10) / 22) * Math.min(1, viewport.width / 14), x: (Math.random() - 0.5) * 8 })), [])
   const maps = useMemo(() => items.map((b) => texture(b.l, b.c)), [items])
   const [n, setN] = useState(0)
   useEffect(() => {

@@ -15,7 +15,8 @@ function Cloud() {
     const colors = new Float32Array(COUNT * 3)
 
     // 1) Définir le texte EN PREMIER
-   const label = "</>"
+    const label = '</>'
+
     // 2) Dessiner le texte sur un canvas 2D
     const canvas = document.createElement('canvas')
     canvas.width = 512
@@ -119,7 +120,7 @@ export default function ParticleCloud() {
   const [ref, inView] = useInView('0px')
   return (
     <div ref={ref} className="hero-canvas" aria-hidden="true">
-      <Canvas camera={{ position: [0, 0, 11], fov: 42 }} dpr={DPR} frameloop={inView ? 'always' : 'never'}>
+      <Canvas camera={{ position: [0, 0, Math.max(11, 16.5 / (innerWidth / innerHeight))], fov: 42 }} dpr={DPR} frameloop={inView ? 'always' : 'never'}>
         <color attach="background" args={['#0a0814']} />
         <ambientLight intensity={0.4} />
         <Cloud />
