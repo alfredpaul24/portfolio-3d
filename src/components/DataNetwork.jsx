@@ -21,7 +21,7 @@ function Network() {
   const pulses = useRef([])
   const nodeRefs = useRef([])
   const { viewport } = useThree()
-  const s = Math.min(1, viewport.width / 7.9)
+  const s = Math.min(1, viewport.width / 7.5)
   // init pulses
   useMemo(() => {
     pulses.current = EDGES.map(() => ({ t: Math.random(), speed: 0.35 + Math.random() * 0.4 }))
