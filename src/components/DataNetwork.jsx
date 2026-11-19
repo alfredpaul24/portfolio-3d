@@ -1,5 +1,5 @@
 import { useMemo, useRef } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Text } from '@react-three/drei'
 import * as THREE from 'three'
 import { useInView, DPR } from '../hooks'
@@ -20,7 +20,8 @@ function Network() {
   const group = useRef()
   const pulses = useRef([])
   const nodeRefs = useRef([])
-
+  const { viewport } = useThree()
+  const s = Math.min(1, viewport.width / 8.4)
   // init pulses
   useMemo(() => {
     pulses.current = EDGES.map(() => ({ t: Math.random(), speed: 0.35 + Math.random() * 0.4 }))
@@ -56,7 +57,7 @@ function Network() {
   }, [])
 
   return (
-    <group ref={group}>
+    <group ref={group} scale={s}>
       {EDGES.map((_, i) => (
         <line key={i}>
           <bufferGeometry>
