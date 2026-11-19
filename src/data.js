@@ -70,6 +70,7 @@ export const SOCIALS = {
   github: 'https://github.com/alfredpaul24',   
   linkedin: 'https://www.linkedin.com/in/kholore-n-dri-131744237', 
   instagram:'https://www.instagram.com/paulkholore?hvrq=NzhnNTNmMXF4aXJv', 
+whatsapp:'https://wa.me/qr/5EFMOIEVA2D6D1', 
 }
 // Dépose ton CV (PDF) dans /public sous ce nom (un CV de départ y est déjà, à remplacer).
 export const CV = { url: '/CV-Alfred-NDri.pdf', label: 'Télécharger mon CV' }
