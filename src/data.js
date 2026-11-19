@@ -22,8 +22,8 @@ export const CAREER = [
 // img : chemin d'une capture dans /public (ex. '/projects/ges-immob.png') -> remplace la maquette grise.
 export const WORKS = [
   { n: '01', t: 'GES-IMMOB.CI', c: 'Plateforme web', tools: 'React.js, Laravel, MySQL, Sanctum, MERISE, signature de contrats, quittances, messagerie, vérification d’identité par CNI et selfie.', demo: '', repo: 'alfredpaul24', img: 'GES-IMMOB.CI.png' },
-  { n: '02', t: 'N ZO CRÉATION', c: 'plateforme web', tools: 'HTML, CSS, JAVASCRIPT ,firebase, notifications, espace user, espace admin.', demo: 'nzo-signature.vercel.app', repo: 'alfredpaul24/nzo-signature', img: 'nzo.jpg' },
-  { n: '03', t: 'PORTFOLIO', c: 'Site vitrine', tools: 'React, Three.js, React Three Fiber, physique Rapier, animations au scroll.', demo: 'n', repo: 'alfredpaul24', img: 'portfolio.png' },
+  { n: '02', t: 'N ZO CRÉATION', c: 'plateforme web', tools: 'HTML, CSS, JAVASCRIPT ,firebase, notifications, espace user, espace admin.', demo: 'https://nzo-signature.vercel.app', repo: 'alfredpaul24/nzo-signature', img: 'nzo.jpg' },
+  { n: '03', t: 'PORTFOLIO', c: 'Site vitrine', tools: 'React, Three.js, React Three Fiber, physique Rapier, animations au scroll.', demo: 'https://portfolio-3d-three-rho.vercel.app/', repo: 'alfredpaul24', img: 'portfolio.png' },
   { n: '04', t: 'Need To Speak', c: 'Plateforme web', tools: 'React.js, Laravel, MySQL, Sanctum, FastApi, Assitance de soutien pour personne ayant envie de se confier sans etre jugée et de soutien mental.', demo: '', repo: 'alfredpaul24', img: 'ntsp.png' },
 ]
 
