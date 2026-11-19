@@ -1,5 +1,5 @@
 // ====== À MODIFIER : tes informations ======
-export const ME = { nom: 'KHOLORE', prenom: 'ALFRED N DRI', email: 'kholorepaul@gmail.com', lieu: 'Côte d’Ivoire' }
+export const ME = { nom: 'KHOLORE', prenom: 'ALFRED N DRI', email: 'kholorepaul@gmail.com', lieu: 'Côte d’Ivoire,Abidjan' }
 export const ROLES = ['DÉVELOPPEUR', 'INGÉNIEUR']
 
 export const ABOUT = 'Je suis développeur full-stack diplômé en Informatique Génie Logiciel. J’aime transformer un vrai besoin en une application claire, solide et agréable à utiliser, de la modélisation jusqu’à la mise en ligne.'
