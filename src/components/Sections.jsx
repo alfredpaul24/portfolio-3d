@@ -153,6 +153,8 @@ export function Contact() {
           <a href={CV.url} download>{CV.label} ↓</a>
           {SOCIALS.github && <a href={SOCIALS.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>}
           {SOCIALS.linkedin && <a href={SOCIALS.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>}
+          {SOCIALS.instagram && <a href={SOCIALS.instagram} target="_blank" rel="noopener noreferrer">Instagram ↗</a>}
+       {SOCIALS.whatsapp && <a href={SOCIALS.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>}
         </div>
       </form>
     </section>
