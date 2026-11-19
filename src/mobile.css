@@ -11,3 +11,4 @@
 @media (max-width:600px){
   .network .big{font-size:clamp(24px,7.2vw,48px);overflow-wrap:anywhere}
 }
+.nav-logo,.nav-links a{white-space:nowrap}
