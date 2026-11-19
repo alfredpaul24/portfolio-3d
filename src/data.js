@@ -68,8 +68,8 @@ export const EXP = [
 // Renseigne tes liens : un lien laissé vide n'est pas affiché.
 export const SOCIALS = {
   github: 'https://github.com/alfredpaul24',   
-  linkedin: 'https://www.linkedin.com/in/ton-profil', 
-  instagram: 'https://www.linkedin.com/in/ton-profil', 
+  linkedin: 'https://www.linkedin.com/in/kholore-n-dri-131744237', 
+  instagram:'https://www.instagram.com/paulkholore?hvrq=NzhnNTNmMXF4aXJv', 
 }
 // Dépose ton CV (PDF) dans /public sous ce nom (un CV de départ y est déjà, à remplacer).
 export const CV = { url: '/CV-Alfred-NDri.pdf', label: 'Télécharger mon CV' }
