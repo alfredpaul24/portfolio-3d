@@ -11,8 +11,8 @@ export const DO = [
 ]
 
 export const CAREER = [
-  { r: 'BAC D', o: 'COLLÈGE EBURNIE', y: '2022-2023', d: '.' },
-  { r: 'BTS 1 Informatique Developpeur d Application (IDA)', o: 'IIPEA', y: '2023-2024', d: '.' },
+  { r: 'BACCALAURÉAT Série D', o: 'COLLÈGE EBURNIE', y: '2022-2023', d: '.' },
+  { r: 'BTS 1 Informatique Developpeur d Application (IDA)', o: 'IIPEA', y: '2023-2024', d: 'Premier pas dans l univers du développement informatique.' },
   { r: 'BTS 2 Informatique Developpeur d Application (IDA)', o: 'IIPEA', y: '2024-2025', d: 'Admis au BTS le 20 aout 2026 en candidature libre .' },
   { r: 'Licence 3 en Informatique Génie Logiciel (IGL)', o: 'IIPEA', y: '2025-2026', d: 'Soutenance réussie le samedi 3 octobre 2026, avec un mémoire consacré à la conception d’une plateforme de gestion immobilière.' },
  
